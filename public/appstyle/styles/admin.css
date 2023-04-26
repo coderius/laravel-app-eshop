@@ -1,0 +1,62 @@
+.Adm-image-sm{
+    width: 50px;
+
+}
+.Adm-image-smx{
+    width: 100px;
+
+}
+.Admin-alert-info:hover{
+ cursor: pointer;
+}
+.modal-body > ul > li{
+    padding: 10px 0 !important;
+}
+
+.admin-sidebar__item .active a{
+    font-weight: bold;
+}
+
+.upload-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.upload-image{
+    width: 15%;
+    cursor: pointer;
+    position: relative;
+}
+
+.upload-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+    color: green;
+}
+
+.td-first-bold tr > td:first-child{
+    font-weight: bold;
+}
+/* .upload-images__icons{
+    position: absolute;
+    left: 77%;
+    top: 80%;
+    font-size: 20px;
+    background-color: aliceblue;
+    display: block;
+    border-radius: 50%;
+    padding: 0 7px;
+}
+
+.upload-images__icons:hover{
+    color: red;
+} */
