@@ -1,3 +1,3 @@
-## Internet Store elecci.com.ua
+## Eshop elecci.com.ua
 
-Website: [https://elecci.com.ua](https://elecci.com.ua).
+Website: [https://elecci.com.ua](https://elecci.com.ua)
