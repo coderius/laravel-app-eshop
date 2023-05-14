@@ -165,6 +165,7 @@ return [
         App\Providers\RepositoryServiceProvider::class,
         App\Providers\HelpersServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+       
 
         /*
          * Package Service Providers...

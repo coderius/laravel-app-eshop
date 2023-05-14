@@ -17,6 +17,21 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+
+
+
+//------------------
+//Testing packs
+//------------------
+// Route::get('inspire', function(\Coderius\Test\Inspire $inspire) {
+//     return $inspire->justDoIt();
+// });
+//------------------
+//Testing packs
+//------------------
+
+
+
 //------------------
 //FRONTAND
 //------------------

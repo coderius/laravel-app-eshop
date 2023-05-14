@@ -36,7 +36,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Coderius\\Test\\": "C:/Users/Admin/OneDrive/Рабочий стол/WEBSITES/htdocs/extentions-laravel/laravel-widget/src/"
         },
         "classmap": [
             "database/seeds",
