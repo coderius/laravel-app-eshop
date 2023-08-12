@@ -29,3 +29,7 @@ function getPartnerId(){
     return session()->get('partnerId');
 }
 
+function registerCss($css = ""){
+    return "<style>$css</style>";
+}
+

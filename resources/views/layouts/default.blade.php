@@ -26,7 +26,12 @@
     <link rel="stylesheet" href="{{asset('appstyle/assets/bootstrap-5.0.2/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('appstyle/assets/font-awesome/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('appstyle/styles/main.css?v=').time()}}">
-
+    {{-- <style>
+        @yield('styles')
+    </style> --}}
+    {{-- TODO  registerCss() own helper--}}
+    {!! registerCss() !!}
+    
 </head>
 
 <body class="">
@@ -82,7 +87,7 @@
     <script src="{{asset('appstyle/scripts/jquery-mobile/jquery.mobile.custom.min.js')}}"></script>
     <script src="{{asset('appstyle/assets/bootstrap-5.0.2/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('appstyle/scripts/main.js')}}"></script>
-
+    
     <script>
         $(function () {
             @stack('scripts')

@@ -165,7 +165,7 @@ return [
         App\Providers\RepositoryServiceProvider::class,
         App\Providers\HelpersServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
-       
+        App\Providers\WidgetServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -179,6 +179,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        
 
     ],
 
